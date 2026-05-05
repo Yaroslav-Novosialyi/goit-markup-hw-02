@@ -1,0 +1,38 @@
+body {
+     font-family: Roboto, sans-serif;
+     color:#2E2F42;
+     font-size:16px;
+     line-height: 1.5;
+     letter-spacing:0.02em;
+     background-color: #ffffff;
+}
+
+ul,ol {
+     list-style: none;
+}
+
+a {
+     text-decoration: none;
+     color: inherit;
+}
+
+address {
+     font-style: normal;
+}
+
+link:hover,
+link:focus{
+     color:#4d5ae5
+}
+
+.color-logo{
+     color:#4D5AE5;
+}
+
+.logo{
+     font-family: Raleway, sans-serif;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 1.33333;
+     letter-spacing: 0.03em;
+}

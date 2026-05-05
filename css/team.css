@@ -1,0 +1,42 @@
+.ourteam{
+     font-family: Roboto;
+     font-weight: 700;
+     font-size: 36px;
+     line-height:1.11;
+     letter-spacing: 0.02em;
+     text-align: center;
+     color:#2E2F42;
+}
+
+.team{
+     background-color:#F4F4FD ;
+}
+
+.subtitle {
+     font-family: Roboto;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 24/20;
+     letter-spacing: 0.02em;
+     color: #2E2F42;
+}
+
+.text {
+     font-size: Roboto;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24/16;
+     letter-spacing: 0.02em;
+     color: #434455;
+}
+
+.team .subtitle{
+     text-align: center;
+}
+.team .text{
+     text-align: center;
+}
+
+.border{
+     background-color:#ffffff;
+}
