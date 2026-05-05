@@ -7,10 +7,15 @@
 
      <title>WebStudio</title>
 
-     <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
           rel="stylesheet">
+
+     <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
+
      <link rel="stylesheet" href="./css/main.css">
 
 </head>
@@ -19,21 +24,23 @@
      <header id="header">
 
           <a href="./index.html" class="logo">
-               <span class="color-logo">WEB</span>STUDIO
-               <nav class="navigation">
-                    <ul>
-                         <li class="subtitle"><a href="#features" class="nav-link">Features</a></li>
-                         <li class="subtitle"><a href="#team" class="nav-link">Team</a></li>
-                         <li class="subtitle"><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                    </ul>
-               </nav>
+               <span class="color-logo">WEB</span><span class="color-studio">STUDIO</span>
+          </a>
 
-               <address class="address" id="address">
-                    <ul>
-                         <li class="text"><a href="mailto:info@devstudio.com">info@devstudio.com</a><br /></li>
-                         <li class="text"><a href="tel:+11(000)111-11-11">+11(000)111-11-11</a><br /></li>
-                    </ul>
-               </address>
+          <nav class="navigation">
+               <ul>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#team" class="nav-link">Team</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+               </ul>
+          </nav>
+
+          <address class="address" id="address">
+               <ul>
+                    <li><a href="mailto:info@devstudio.com" class="addreslink">info@devstudio.com</a></li>
+                    <li><a href="tel:+11(000)111-11-11" class="addreslink">+11 (000) 111-11-11</a></li>
+               </ul>
+          </address>
 
      </header>
 
@@ -47,7 +54,7 @@
                <h2 class="ourfeatures">Our features</h2>
                <ul>
                     <li>
-                         <h3 class="subtitle">Stratergy</h3>
+                         <h3 class="subtitle">Strategy</h3>
                          <p class="text">Our goal is to identify the business
                               problem to walk away with the perfect and creative solution.</p>
                     </li>
@@ -78,80 +85,69 @@
                <h2 class="ourteam">Our TeaM</h2>
                <ul>
                     <li class="border">
-                         <img src="./images/team-1.jpg" width="320" alt="Mark Guerrero" />
+                         <img src="./images/team-1.jpg" width="264" alt="Mark Guerrero" />
                          <h3 class="subtitle">Mark Guerrero</h3>
                          <p class="text">Product Designer</p>
                     </li>
                     <li class="border">
-                         <img src="./images/team-2.jpg" width="320" alt="Tom Ford" />
+                         <img src="./images/team-2.jpg" width="264" alt="Tom Ford" />
                          <h3 class="subtitle">Tom Ford</h3>
                          <p class="text">Frontend Developer</p>
                     </li>
                     <li class="border">
-                         <img src="./images/team-3.jpg" width="320" alt="Camila Garcia" />
+                         <img src="./images/team-3.jpg" width="264" alt="Camila Garcia" />
                          <h3 class="subtitle">Camila Garcia</h3>
                          <p class="text">Marketing</p>
                     </li>
                     <li class="border">
-                         <img src="./images/team-4.jpg" width="320" alt="Daniel Wilson" />
+                         <img src="./images/team-4.jpg" width="264" alt="Daniel Wilson" />
                          <h3 class="subtitle">Daniel Wilson</h3>
                          <p class="text">UI Designer</p>
                     </li>
                </ul>
           </section>
 
-          <seection class="portfolio" id="portfolio">
+          <section class="portfolio" id="portfolio">
                <h2 class="ourportfolio">Our Portfolio</h2>
                <ul>
                     <li>
                          <img src="./images/portfolio-1.jpg" width="320" alt="Banking App" />
-                         <p>
-                              <b>Banking App</b><br />
-                              App
-                         </p>
+                         <h3 class="subtitle">Banking App</h3>
+                         <p class="text">App</p>
                     </li>
                     <li>
                          <img src="./images/portfolio-2.jpg" width="320" alt="Cashless Payment" />
-                         <p>
-                              <b>Cashless Payment</b><br />
-                              Marketing
-                         </p>
+                         <h3 class="subtitle">Cashless Payment</h3>
+                         <p class="text">Marketing</p>
                     </li>
                     <li>
                          <img src="./images/portfolio-3.jpg" width="320" alt="Meditation App" />
-                         <p>
-                              <b>>Meditation App</b><br />
-                              App
-                         </p>
+                         <h3 class="subtitle">Meditation App</h3>
+                         <p class="text">App</p>
                     </li>
                     <li>
                          <img src="./images/portfolio-4.jpg" width="320" alt="Taxi Service" />
-                         <p>
-                              <b>Taxi Service</b><br />
-                              Marketing
-                         </p>
+                         <h3 class="subtitle">Taxi Service</h3>
+                         <p class="text">Marketing</p>
                     </li>
                     <li>
                          <img src="./images/portfolio-5.jpg" width="320" alt="Screen Illustrations" />
-                         <p>
-                              <b>Screen Illustrations</b><br />
-                              Design
-                         </p>
+                         <h3 class="subtitle">Screen Illustrations</h3>
+                         <p class="text">Design</p>
                     </li>
                     <li>
                          <img src="./images/portfolio-6.jpg" width="320" alt="Online Courses" />
-                         <p>
-                              <b>Online Courses</b><br />
-                              Marketing
-                         </p>
+                         <h3 class="subtitle">Online Courses</h3>
+                         <p class="text">Marketing</p>
                     </li>
                </ul>
+          </section>
 
      </main>
 
      <footer class="footer" id="footer">
           <a href="./index.html" class="logo">
-               <span class="color-logo">WEB</span>STUDIO
+               <span class="color-logo">WEB</span><span class="color-studio2">STUDIO</span>
           </a>
           <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.
           </p>

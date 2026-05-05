@@ -1,8 +1,25 @@
-.header-contacts .link:hover,
-.header-contacts .link:focus{
-     color:#4d5ae5;
-}
 .navigation {
      font-weight: 500;
      font-size: 16px;
+}
+
+.addreslink {
+     color: #434455;
+     text-decoration: none;
+     line-height: 1.5;
+
+.addreslink:hover,
+.addreslink:focus {
+     color: #404bbf;
+}
+
+.nav-link {
+     color: #2E2F42;
+     text-decoration: none;
+     line-height: 1.5;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+     color: #404bbf;
 }
