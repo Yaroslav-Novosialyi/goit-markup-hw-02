@@ -1,4 +1,9 @@
+.team {
+     background-color: #F4F4FD;
+}
+
 .ourteam{
+     margin-bottom: 72px;
      font-family: Roboto;
      font-weight: 700;
      font-size: 36px;
@@ -8,17 +13,40 @@
      color:#2E2F42;
 }
 
-.team{
-     background-color:#F4F4FD ;
+.team-list{
+     display: flex;
+     gap: 24px;
+     justify-content: center;
 }
 
-.team .subtitle{
-     text-align: center;
+.team-item {
+     background-color: #ffffff;
+     border: 1px solid #e7e9fc;
 }
-.team .text{
+
+.team-card {
+     padding: 32px 0;
      text-align: center;
 }
 
-.border{
-     background-color:#ffffff;
+.subtitle-team{
+     margin-bottom: 8px;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     text-align: center;
+     color:#2e2f42;
+}
+
+.text-team {
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     text-align: center;
+     color: #434455;
+}
+
+.team-image{
+     max-width: 100%;
 }

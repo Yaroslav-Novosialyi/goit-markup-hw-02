@@ -5,10 +5,13 @@ body {
      line-height: 1.5;
      letter-spacing:0.02em;
      background-color: #ffffff;
+     width: 1440px;
 }
 
-ul,ol {
+ul {
      list-style: none;
+     margin: 0;
+     padding:0;
 }
 
 a {
@@ -16,7 +19,7 @@ a {
      color: inherit;
 }
 
-address {
+.address{
      font-style: normal;
 }
 
@@ -40,7 +43,8 @@ address {
      color:#2E2F42;
 }
 
-.text {
+.text,
+.text-features {
      font-family: "Roboto", sans-serif;
      font-weight: 400;
      font-size: 16px;
@@ -49,11 +53,48 @@ address {
      color: #434455;
 }
 
-.subtitle {
+.subtitle,
+.subtitle-features{
      font-family: "Roboto", sans-serif;
      font-weight: 500;
      font-size: 20px;
      line-height: 1.2;
      letter-spacing: 0.02em;
      color: #2E2F42;
+}
+
+.sr-only {
+     position: absolute;
+     white-space: nowrap;
+     width: 1px;
+     height: 1px;
+     overflow: hidden;
+     border: 0;
+     padding: 0;
+     clip: rect(0 0 0 0);
+     clip-path: inset(100%);
+     margin: -1px;
+}
+
+h1,
+h2,
+h3,
+p {
+margin:0;
+}
+
+.conteiner{
+     width: 1158px;
+     margin: 0;
+     padding: 0 15px;
+     max-width: 1158px;
+}
+
+.section{
+     padding-top: 120px;
+     padding-bottom: 120px;
+}
+
+img{
+     display:block;
 }

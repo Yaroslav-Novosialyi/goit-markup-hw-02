@@ -1,20 +1,22 @@
+.header .container {
+     display: flex;
+     align-items: center;
+}
+
 .navigation {
-     font-weight: 500;
-     font-size: 16px;
+     display: flex;
+     align-items: center;
+     margin-right: auto;
 }
 
-.addreslink {
-     color: #434455;
-     text-decoration: none;
-     line-height: 1.5;
-}
-
-.addreslink:hover,
-.addreslink:focus {
-     color: #404bbf;
+.navigation-list {
+     display: flex;
+     gap: 40px;
 }
 
 .nav-link {
+     display: block;
+     padding: 24px;
      color: #2E2F42;
      text-decoration: none;
      line-height: 1.5;
@@ -23,4 +25,22 @@
 .nav-link:hover,
 .nav-link:focus {
      color: #404bbf;
+}
+
+.addres-link {
+     display: block;
+     padding-bottom: 24px 0;
+     color: #434455;
+     text-decoration: none;
+     line-height: 1.5;
+}
+
+.addres-link:hover,
+.addres-link:focus {
+     color: #404bbf;
+}
+
+.address-list {
+     display: flex;
+     gap: 40px;
 }
